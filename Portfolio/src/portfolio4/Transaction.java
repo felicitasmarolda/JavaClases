@@ -15,7 +15,7 @@ public abstract class Transaction {
   }
   
 }
-
-// nueva familia de transacciones que permitan hacer en cada cuenta por tranferencia
-// tiene que ser compatible con lo que haciamos hasta ahora
-//
+// Necesitamos deinir Transferencias, en donde movemmos dinero de un origen a un destino
+// El modelo resultante debe ser compatible con lo desarrolado hasta ahora, es decir,
+// permitir un balance y nu reporte
+// pero ademas debe poder lllegarse desde una pata de la transferencia a la otra
