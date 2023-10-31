@@ -71,5 +71,27 @@ public class PortfolioTest {
     assertEquals(10, otroPortfolio.balance());
   }
 
-  // test de no poder agragar un portfolio que tiene un account que ya esta en otro
+  @Test public void testCannotAddPortfolioWithAnAccountThatIsAlreadyInPortfolio() {
+    Account account = new Account().deposit(10);
+    Portfolio portfolio1 = new Portfolio();
+    Portfolio portfolio2 = new Portfolio();
+    portfolio1.add(account);
+    portfolio2.add(account);
+    assertThrows( RuntimeException.class, () -> portfolio1.add(portfolio2) );
+
+  }
+  @Test void test16CantAddAnAccountThatAlreadyExistsInPortfolio() {
+    Portfolio portfolio = new Portfolio();
+    Portfolio segundoPortfolio = new Portfolio();
+    //Portfolio tercerPortfolio = new Portfolio();
+    Account account = new Account();
+    Account account2 = new Account();
+    portfolio.add(account.deposit(10).deposit(5));
+    segundoPortfolio.add(portfolio);
+    segundoPortfolio.add(account2);
+    //tercerPortfolio.add(segundoPortfolio);
+    assertThrows(Exception.class, () -> segundoPortfolio.add(account));
+
+
+  }
 }
