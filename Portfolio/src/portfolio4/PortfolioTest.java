@@ -92,6 +92,5 @@ public class PortfolioTest {
     //tercerPortfolio.add(segundoPortfolio);
     assertThrows(Exception.class, () -> segundoPortfolio.add(account));
 
-
   }
 }
