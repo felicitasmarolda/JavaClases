@@ -1,7 +1,7 @@
 package portfolio5;
 
 public class TransferTransaction extends Transaction{
-    private Transfer transfer;
+    protected Transfer transfer;
 
     public TransferTransaction(Transfer aTransfer) {
         super(aTransfer.value());

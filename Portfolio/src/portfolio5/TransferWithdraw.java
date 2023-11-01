@@ -1,13 +1,12 @@
 package portfolio5;
 
-public class TransferWithdraw extends Transaction {
+public class TransferWithdraw extends TransferTransaction {
     public TransferWithdraw( Transfer aTransfer ) {
-        super(aTransfer.value());
+        super(aTransfer);
     }
     public TransferDeposit destination(){
         return transfer.destination();
     }
-
 
     @Override
     public int valueForBalance() {

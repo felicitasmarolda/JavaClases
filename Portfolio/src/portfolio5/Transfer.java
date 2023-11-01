@@ -5,12 +5,19 @@ public class Transfer {
     private TransferDeposit destination;
     private TransferWithdraw origin;
 
-    public Transfer (int valueToTransfer){
-        if (valueToTransfer <= 0) throw new RuntimeException();
+    public static Transfer register( int anAmmount, Account originAccount, Account destinationAccount){
+        Transfer transfer = new Transfer(anAmmount);
+        originAccount.register(transfer.origin());
+        destinationAccount.register( transfer.destination );
+        return transfer;
+    }
 
-        value = valueToTransfer;
-        origin = new TransferWithdraw(valueToTransfer);
-        destination = new TransferDeposit(valueToTransfer);
+    public Transfer (int anAmmount){
+        if (anAmmount <= 0) throw new RuntimeException();
+
+        value = anAmmount;
+        origin = new TransferWithdraw(this);
+        destination = new TransferDeposit(this);
     }
     public int value(){return value;}
 

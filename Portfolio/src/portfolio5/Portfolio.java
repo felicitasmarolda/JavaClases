@@ -3,7 +3,7 @@ package portfolio5;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Portfolio implements Accountable {
+public class Portfolio extends Accountable {
   private List<Accountable> accounts = new ArrayList();
   
   public int balance() {
@@ -12,7 +12,6 @@ public class Portfolio implements Accountable {
         .reduce(0, (a, b) -> a + b);
   }
 
-  public String report() { return report( "" ); }
   public String report( String prefix ) {
     List<String> report = new ArrayList();
     

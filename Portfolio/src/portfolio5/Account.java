@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Account implements Accountable {
+public class Account extends Accountable {
   private List<Transaction> transactions = new ArrayList();
   
   public int balance() {
@@ -13,18 +13,19 @@ public class Account implements Accountable {
         .reduce(0, (a, b) -> a + b);
   }
 
-  public Account deposit( int anAmount ) {
-    transactions.add( new Deposit( anAmount ) );
+  public Account register( Transaction aTransaction){
+    transactions.add( aTransaction );
     return this;
+  }
+  public Account deposit( int anAmount ) {
+    return register( new Deposit( anAmount ));
   }
 
   public Account withdraw( int anAmount ) {
     if (balance() - anAmount < 0) {
       throw new RuntimeException( "not enough money in the account" );
     }
-    
-    transactions.add( new Withdraw( anAmount ) );
-    return this;  }
+    return register( new Withdraw( anAmount ));  }
 
   public String report() { return report( "" ); }
   public String report( String prefix ) {

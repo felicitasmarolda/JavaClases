@@ -1,22 +1,17 @@
 package portfolio5;
 
-public class TransferDeposit extends TranferTransaction {
+public class TransferDeposit extends TransferTransaction {
 
     public TransferDeposit(Transfer aTransfer) {
         super( aTransfer );
     }
-
-    @Override
-    public int valueForBalance() {
-        return 0;
-    }
-
-    @Override
-    public String reportDetail() {
-        return null;
-    }
-
-    public Transaction origin(){
+    public TransferWithdraw origin() {
         return transfer.origin();
+    }
+
+
+    public int valueForBalance() {
+        // TODO Auto-generated method stub
+        return transfer.value();
     }
 }
