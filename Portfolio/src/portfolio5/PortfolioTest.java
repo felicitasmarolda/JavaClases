@@ -28,7 +28,6 @@ public class PortfolioTest {
     assertEquals( 0, account.balance() );
   }
 
-
   @Test void testReportAfterADeposit() {
     assertEquals( "Cuenta:\n" +
                     "  Deposit: 10\n" +
