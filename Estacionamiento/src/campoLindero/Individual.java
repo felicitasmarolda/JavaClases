@@ -1,13 +1,10 @@
 package campoLindero;
 
-import java.util.ArrayList;
-
-public class Member extends Car{
+public class Individual extends Car{
     public int peopleInCar;
-    public Member(int peopleInCar){
+    public Individual(int peopleInCar){
         this.peopleInCar = peopleInCar;
     }
-
     @Override
     public int peopleInCar() {
         return peopleInCar;
@@ -15,6 +12,6 @@ public class Member extends Car{
 
     @Override
     public Integer price() {
-        return 100;
+        return 50 + 60*peopleInCar;
     }
 }
