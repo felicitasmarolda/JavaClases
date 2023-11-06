@@ -1,4 +1,4 @@
-package campoLindero;
+package garageEventos1.campoLindero;
 
 import java.util.ArrayList;
 
@@ -15,5 +15,14 @@ public class Parking {
         cars.add(car);
         people += car.peopleInCar();
         totalToCharge += car.price();
+    }
+
+    // falta unpark y que pasa con eso
+    public void unpark(Car car){
+        cars.removeAll( cars.stream().filter( (parked) -> parked.holds( earlyCar ) ).toList() );
+
+        cars.remove(car);
+        people -= car.peopleInCar();
+        totalToCharge -= car.price();
     }
 }

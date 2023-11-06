@@ -1,4 +1,4 @@
-package agenda.agenda;
+package agenda;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 public class FeriadoPorDia extends Feriado{

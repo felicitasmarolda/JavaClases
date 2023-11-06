@@ -1,4 +1,4 @@
-package campoLindero;
+package garageEventos1.campoLindero;
 
 public class Individual extends Car{
     public int peopleInCar;

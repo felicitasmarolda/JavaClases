@@ -1,4 +1,4 @@
-package campoLindero;
+package garageEventos1.campoLindero;
 
 import org.junit.Test;
 
