@@ -1,6 +1,8 @@
 package garageEventos1.campoLindero;
 
 import java.util.ArrayList;
+import static java.util.stream.Collectors.toList;
+
 
 public class Parking {
     public ArrayList<Car> cars = new ArrayList();
@@ -18,11 +20,7 @@ public class Parking {
     }
 
     // falta unpark y que pasa con eso
-    public void unpark(Car car){
+    public void unpark( Car earlyCar ) {
         cars.removeAll( cars.stream().filter( (parked) -> parked.holds( earlyCar ) ).toList() );
-
-        cars.remove(car);
-        people -= car.peopleInCar();
-        totalToCharge -= car.price();
     }
 }

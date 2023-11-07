@@ -1,4 +1,4 @@
-package portfolio6;
+package portfolio6b;
 
 public class Deposit extends Transaction {
 

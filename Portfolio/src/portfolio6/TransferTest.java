@@ -1,4 +1,4 @@
-package portfolio6;
+package portfolio6b;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -44,28 +44,6 @@ public class TransferTest {
     assertEquals( 20, anotherAccount.balance() );
   }
    
-  @Test void testReportAfterATransferenceWithdraw() {
-    Account anAccount = accountWith10();
-    Account anotherAccount = accountWith10();
-    
-    transferRegister( 10, anAccount, anotherAccount );
-    assertEquals( "Cuenta:\n" + 
-                  "  Deposit: 10\n" +
-                  "  Débito por transferencia de: 10\n" +
-                  "Balance: 0", anAccount.report() );
-  }
-
-  @Test void testReportAfterATransferenceDeposit() {
-    Account anAccount = accountWith10();
-    Account anotherAccount = accountWith10();
-    
-    transferRegister( 10, anAccount, anotherAccount );
-    assertEquals( "Cuenta:\n" + 
-                  "  Deposit: 10\n" +
-                  "  Depósito por transferencia de: 10\n" +
-                  "Balance: 20", anotherAccount.report() );
-  }
-  
   private Transfer transferRegister( int anAmmount, Account originAccount, Account destinationAccount ) {
     return Transfer.register( anAmmount, originAccount, destinationAccount );
   }
