@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 
 public class ReportTest {
 
-  @Test void testReportAfterADeposit() {
+  @Test public void testReportAfterADeposit() {
     assertEquals( "Cuenta:\n" + 
                   "  Deposit: 10", SummaryTreeReport.report( accountWith10() ) );
   }
   
-  @Test void testReportAfterAWithdraw() {
+  @Test public void testReportAfterAWithdraw() {
     Account account = new Account();
     account.deposit( 10 )
            .withdraw( 5 );
@@ -20,13 +20,13 @@ public class ReportTest {
   }  
   
   // reportes:
-  @Test void testReportPortfolioAfterADeposit() {
+  @Test public void testReportPortfolioAfterADeposit() {
     assertEquals( "Portfolio:\n" +  
                   "  Cuenta:\n" +  
                   "    Deposit: 10", SummaryTreeReport.report( new Portfolio().addAccount( accountWith10() ) ) );
   }
  
-  @Test void testReportPortfolioComplex() {
+  @Test public void testReportPortfolioComplex() {
     assertEquals( "Portfolio:\n" +  
                   "  Portfolio:\n" +  
                   "    Cuenta:\n" +  
@@ -42,7 +42,7 @@ public class ReportTest {
                                      .addAccount( new Portfolio().addAccount( accountWith10() ) ) ) );
   }
  
-  @Test void testReportAfterATransferenceWithdraw() {
+  @Test public void testReportAfterATransferenceWithdraw() {
     Account anAccount = accountWith10();
     Account anotherAccount = accountWith10();
     
@@ -52,7 +52,7 @@ public class ReportTest {
                   "  Débito por transferencia de: 10", SummaryTreeReport.report( anAccount ) );
   }
 
-  @Test void testReportAfterATransferenceDeposit() {
+  @Test public void testReportAfterATransferenceDeposit() {
     Account anAccount = accountWith10();
     Account anotherAccount = accountWith10();
     

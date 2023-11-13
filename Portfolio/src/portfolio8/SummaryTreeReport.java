@@ -23,18 +23,29 @@ public class SummaryTreeReport extends ReportVisitor {
   }
 
   public void visitDeposit( Deposit deposit ) {
-    report.add( "Deposit: " + deposit.value() );  
+
+    report.add( prefix + "  " + "Deposit: " + deposit.value() );
+
   }
+
+
 
   public void visitWithdraw( Withdraw withdraw ) {
-    report.add( "Withdraw: " + withdraw.value() );      
+
+    report.add( prefix + "  " + "Withdraw: " + withdraw.value() );
+
   }
+
+
 
   public void visitTransferDestination( TransferDestination transferDestination ) {
-    report.add( "Depósito por transferencia de: " + transferDestination.value() );      
-  }
-  public void visitTransferOrigin( TransferOrigin transferOrigin ) {
-    report.add( "Débito por transferencia de: " + transferOrigin.value() );      
+
+    report.add( prefix + "  " + "Depósito por transferencia de: " + transferDestination.value() );
+
   }
 
-}
+  public void visitTransferOrigin( TransferOrigin transferOrigin ) {
+
+    report.add( prefix + "  " + "Débito por transferencia de: " + transferOrigin.value() );
+
+  }}

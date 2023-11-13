@@ -9,40 +9,40 @@ import org.junit.Test;
 public class PortfolioTest {
 
   @Test
-  void testBalanceOnNewAccount() {
+  public void testBalanceOnNewAccount() {
     assertEquals( 0, new Account().balance() );
   }
 
-  @Test void testBalanceAfterADeposit() {
+  @Test public void testBalanceAfterADeposit() {
     assertEquals( 10, accountWith10().balance() );
   }
   
-  @Test void testBalanceAfterAWithdraw() {
+  @Test public void testBalanceAfterAWithdraw() {
     Account account = new Account();
     account.deposit( 10 )
            .withdraw( 5 );
     assertEquals( 5, account.balance() );
   }
 
-  @Test void testWithdrawFailsIfNoResidue() {
+  @Test public void testWithdrawFailsIfNoResidue() {
     Account account = new Account();
     assertThrows( RuntimeException.class, () -> account.withdraw( 5 ) );
     assertEquals( 0, account.balance() );
   }
   
   // Portfolios
-  @Test void testBalanceOnNewPortfolio() {
+  @Test public void testBalanceOnNewPortfolio() {
     assertEquals( 0, new Portfolio().balance() );
   }
 
-  @Test void testBalanceAfterAddingAnAccount() {
+  @Test public void testBalanceAfterAddingAnAccount() {
     Portfolio p = new Portfolio();
     p.addAccount( accountWith10() );
     
     assertEquals( 10, p.balance() );
   }
 
-  @Test void testPortfolioFailsAfterAddingAnAccountTwice() {
+  @Test public void testPortfolioFailsAfterAddingAnAccountTwice() {
     Portfolio p = new Portfolio();
     Account anAccount = accountWith10();
     p.addAccount( anAccount);
@@ -53,7 +53,7 @@ public class PortfolioTest {
   }
 
 
-  @Test void testPortfolioAfterAddingAPortfolio() {
+  @Test public void testPortfolioAfterAddingAPortfolio() {
     Portfolio a = new Portfolio();
     Portfolio b = new Portfolio();
     a.addAccount( b );
@@ -61,7 +61,7 @@ public class PortfolioTest {
     assertEquals( 0, a.balance() );
   }
 
-  @Test void testPortfolioBalanceAddsWell() {
+  @Test public void testPortfolioBalanceAddsWell() {
     Portfolio p = new Portfolio();
     p.addAccount( accountWith10() );
     p.addAccount( new Portfolio().addAccount( accountWith10() ) );
@@ -70,7 +70,7 @@ public class PortfolioTest {
   }
 
   // cuentas sin repetir
-  @Test void testPortfolioFailsAfterAddingAnAccountTwiceIndirectlyAlone() {
+  @Test public  void testPortfolioFailsAfterAddingAnAccountTwiceIndirectlyAlone() {
     Account anAccount = accountWith10();
     Portfolio a = new Portfolio().addAccount( anAccount );
     Portfolio b = new Portfolio().addAccount( a );
@@ -80,7 +80,7 @@ public class PortfolioTest {
     assertEquals( 10, a.balance() );
   }
 
-  @Test void testPortfolioFailsAfterAddingAnAccountTwiceIndirectlyInPortfolio() {
+  @Test public void testPortfolioFailsAfterAddingAnAccountTwiceIndirectlyInPortfolio() {
     Account anAccount = accountWith10();
     Portfolio a = new Portfolio().addAccount( anAccount );
     Portfolio b = new Portfolio().addAccount( anAccount );
@@ -90,7 +90,7 @@ public class PortfolioTest {
     assertEquals( 10, a.balance() );
   }
 
-  @Test void testPortfolioFailsAfterAddingAnAccountTwiceIndirectlyInOtherBranch() {
+  @Test public void testPortfolioFailsAfterAddingAnAccountTwiceIndirectlyInOtherBranch() {
     Account anAccount = accountWith10();
     Portfolio a = new Portfolio().addAccount( anAccount );
     Portfolio b = new Portfolio().addAccount( anAccount );
