@@ -1,17 +1,17 @@
-package portfolio6b;
+package portfolio8;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Portfolio extends Accountable {
-  public List<Accountable> accounts = new ArrayList();
+  private List<Accountable> accounts = new ArrayList();
   
   public int balance() {
     return accounts.stream()
         .map( (transaction) -> transaction.balance() )
         .reduce(0, (a, b) -> a + b);
   }
-  
+
   public Portfolio addAccount( Accountable anAccount ) {
     if ( contains( anAccount ) ) throw new RuntimeException();
     
@@ -29,14 +29,15 @@ public class Portfolio extends Accountable {
     return accounts.stream().map( (accountable) -> accountable.accounts() )
                             .reduce( new ArrayList(), (a, b) -> { a.addAll( b ); return a; } );
   }
-  public String title() {
-    return "Portfolio:";
+
+  public void accept( PortfolioVisitor vistor ) {
+    vistor.visitPortfolio( this );
   }
 
-  public void reportOn( SummaryTreeReport report ) {
-    report.reportAsPortofolio( this );    
+  public void visitAccountsOn( PortfolioVisitor summaryTreeReport ) {
+    accounts.forEach( (accountable) -> {
+        accountable.accept( summaryTreeReport );
+    });    
   }
-
-  public void reportTrsansactionsOn(SummaryTreeReport summaryTreeReport) {
-  }
+  
 }

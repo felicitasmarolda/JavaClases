@@ -19,6 +19,7 @@ public class SummaryTreeReport {
   }
 
   public void reportAsPortofolio( Portfolio portfolio ) {
+    //portfolio.reportTransaction( this );
     report.add( prefix + portfolio.title() );
 
     portfolio.accounts.forEach( (accountable) -> {
@@ -32,11 +33,16 @@ public class SummaryTreeReport {
   }
 
   public void reportAsAccount( Account anAccount ) {
+    //anAccount.reportTrsansactionsOn( this );
     report.add( prefix + anAccount.title() );
     anAccount.transactions().forEach( (transaction) -> {
       report.add( prefix + "  " + transaction.reportDetail() );
     });
     report.add( prefix + anAccount.footer() );
+  }
+
+  public void reportAsTransaction( Transaction transaction){
+    report.add( prefix + " " + transaction.reportDetail() );
   }
    
 }

@@ -26,3 +26,16 @@ Portfolio 30
 1. Al crear nuevos reportes no se tiene que volver a modificar la jerarquía de cuentas.
 2. Al crear nuevos reportes no se tiene que volver a modificar la jerarquía de transacciones.
 3. Crear nuevos reportes debe implicar crear clases nuevas únicamente y no modificar ninguna existente.
+
+Implica separar reporte a una clase
+empezamos con Account
+creamos Rerport solo para account
+nos obliga a exponer transactions...
+seguimos con Portfolio, le sacamos lo que tenga de reportes y se lo pasamos a la nueva clase.
+hay que poner un if por la clase de target.
+el if no funcionaldel todo porque anulamos report();
+hay que delegar en el nuevo reporte....
+llevar los parametros a variables de instancia y el target a parametro.
+Mejoramos el nombre del report a SummaryTreeReport
+antes depensar en mas reportes se quitan los ifs
+

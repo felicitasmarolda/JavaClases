@@ -1,4 +1,4 @@
-package portfolio6b;
+package portfolio8;
 
 public class Withdraw extends Transaction {
 
@@ -10,8 +10,8 @@ public class Withdraw extends Transaction {
     return value * -1;
   }
 
-  public String reportDetail() {
-    return "Withdraw: " + value;
+  public void accept( PortfolioVisitor visitor ) {
+    visitor.visitWithdraw( this );
   }
 
 }
