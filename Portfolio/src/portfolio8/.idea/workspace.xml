@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b04a6e-c17b-44ce-85d3-d4a6f50032e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ReportSoloBalanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoloBalanceTreeReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TranferReportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TransferReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PortfolioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReportVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SummaryTreeReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/SummaryTreeReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +18,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2Y845BGOy6orWTYOVeENjmRma3q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,11 +52,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ReportTest">
-    <configuration name="PortfolioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="portfolio8" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ReportSoloBalanceTest.testReportAfterATransferenceWithdraw">
+    <configuration name="ReportSoloBalanceTest.testReportAfterADeposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="portfolio8" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +71,57 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="portfolio8" />
-      <option name="MAIN_CLASS_NAME" value="portfolio8.PortfolioTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="portfolio8.ReportSoloBalanceTest" />
+      <option name="METHOD_NAME" value="testReportAfterADeposit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportSoloBalanceTest.testReportAfterATransferenceWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="portfolio8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="portfolio8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="portfolio8" />
+      <option name="MAIN_CLASS_NAME" value="portfolio8.ReportSoloBalanceTest" />
+      <option name="METHOD_NAME" value="testReportAfterATransferenceWithdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportSoloBalanceTest.testReportAfterAWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="portfolio8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="portfolio8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="portfolio8" />
+      <option name="MAIN_CLASS_NAME" value="portfolio8.ReportSoloBalanceTest" />
+      <option name="METHOD_NAME" value="testReportAfterAWithdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportSoloBalanceTest.testReportPortfolioAfterADeposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="portfolio8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="portfolio8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="portfolio8" />
+      <option name="MAIN_CLASS_NAME" value="portfolio8.ReportSoloBalanceTest" />
+      <option name="METHOD_NAME" value="testReportPortfolioAfterADeposit" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,8 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReportSoloBalanceTest.testReportAfterATransferenceWithdraw" />
+        <item itemvalue="JUnit.ReportSoloBalanceTest.testReportPortfolioAfterADeposit" />
+        <item itemvalue="JUnit.ReportSoloBalanceTest.testReportAfterAWithdraw" />
+        <item itemvalue="JUnit.ReportSoloBalanceTest.testReportAfterADeposit" />
         <item itemvalue="JUnit.ReportTest" />
-        <item itemvalue="JUnit.PortfolioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +159,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699893690632</updated>
-      <workItem from="1699893693313" duration="452000" />
+      <workItem from="1699893693313" duration="2290000" />
+      <workItem from="1699990199823" duration="3675000" />
     </task>
     <servers />
   </component>
