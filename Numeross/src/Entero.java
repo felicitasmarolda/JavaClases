@@ -1,5 +1,3 @@
-package numeros;
-
 public class Entero extends Numero {
 
   public Entero( int aValue ) {

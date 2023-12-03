@@ -1,5 +1,3 @@
-package numeros;
-
 public class Fraccion extends Numero {
 
   public Fraccion( int aNumerator, int aDenominator ) {
@@ -23,7 +21,7 @@ public class Fraccion extends Numero {
   }
 
   public Numero multiplicarAFraccion( Fraccion aFraccionMultiplier ) {
-    return Numero.with( numerator * aFraccionMultiplier.numerator,
+    return with( numerator * aFraccionMultiplier.numerator,
         denominator * aFraccionMultiplier.denominator );
   }
   
