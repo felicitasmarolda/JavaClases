@@ -1,15 +1,14 @@
 package cocheraReserva;
 import java.time.LocalDate;
 
-public class Postulante {
+public abstract class Postulante {
 
     private LocalDate fechaAReservar;
     private String motivo;
     private boolean estaReservado;
 
-    public Postulante(LocalDate fechaAReservar, String motivo) {
+    public Postulante(LocalDate fechaAReservar) {
         this.fechaAReservar = fechaAReservar;
-        this.motivo = motivo;
         boolean estaReservado = false;
     }
     public void marcaComoReservado(){
@@ -21,9 +20,5 @@ public class Postulante {
     }
     public LocalDate getFechaAReservar() {
         return fechaAReservar;
-    }
-
-    public String getMotivo() {
-        return motivo;
     }
 }
