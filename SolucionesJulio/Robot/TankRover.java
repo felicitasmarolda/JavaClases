@@ -1,4 +1,4 @@
-package robotWars;
+package Robot;
 
 public class TankRover extends Robot {
 

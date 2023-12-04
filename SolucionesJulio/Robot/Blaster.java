@@ -1,4 +1,4 @@
-package robotWars;
+package Robot;
 
 public class Blaster extends Weapon {
 	

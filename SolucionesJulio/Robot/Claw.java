@@ -1,4 +1,4 @@
-package robotWars;
+package Robot;
 
 
 public class Claw extends Weapon {

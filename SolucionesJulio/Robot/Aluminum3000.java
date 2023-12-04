@@ -1,4 +1,4 @@
-package robotWars;
+package Robot;
 
 public class Aluminum3000 extends Robot {
 
