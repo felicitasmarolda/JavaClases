@@ -1,4 +1,4 @@
-//package cocheraReserva;
+//package nuevaCochera;
 //
 //import org.junit.Test;
 //import org.junit.jupiter.api.function.Executable;
@@ -19,7 +19,7 @@
 //
 //    @Test public void test01NuevoPostulanteConReunionSeRegistraCorrectamente(){
 //        Cochera cochera = new Cochera();
-//        Postulante postulante = new ConReunion(LocalDate.of(2023,1,1));
+//        Postulante postulante = new Postulante(LocalDate.of(2023,1,1), "Tengo reunión con cliente");
 //        cochera.registrarPostulante(postulante);
 //        assertEquals(1, cochera.candidatosForCochera.size());
 //        assertEquals(0, cochera.fechasReservadas.size());

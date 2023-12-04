@@ -1,4 +1,5 @@
-package cochera;
+package cocheraNueva;
+
 import org.junit.Test;
 import org.junit.jupiter.api.function.Executable;
 
@@ -6,7 +7,6 @@ import java.time.LocalDate;
 import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CocheraTest {
@@ -105,7 +105,7 @@ public class CocheraTest {
                 assertPosultantesYReservas(cochera, pos, reservas);
     }
 
-    private static void assertAfterRegistrarYCerrar(Cochera cochera, int pos, int res,LocalDate fecha, Postulante ... postulantes) {
+    private static void assertAfterRegistrarYCerrar(Cochera cochera, int pos, int res, LocalDate fecha, Postulante... postulantes) {
         Arrays.stream(postulantes).forEach(postulante -> {
             cochera.registrarPostulante(postulante);
         });
