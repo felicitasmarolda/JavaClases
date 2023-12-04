@@ -1,4 +1,4 @@
-package numerossol;
+package numerossolucion;
 
 public class Fraccion extends Numero {
     private Entero numerator;

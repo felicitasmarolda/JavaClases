@@ -1,4 +1,4 @@
-package garageEventos1;
+package estacionamiento;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package garageEventos1;
+package estacionamiento;
 
 public class MemberCar extends ParkedCar {
   public static int MemberFee = 100;

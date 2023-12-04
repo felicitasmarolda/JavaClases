@@ -1,4 +1,4 @@
-package garageEventos1;
+package estacionamiento;
 
 public class Car {
   private int passengers;

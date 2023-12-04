@@ -1,4 +1,4 @@
-package numerossol;
+package numerossolucion;
 
 public abstract class Numero {
     static public String CanNotDivideByZero = "No se puede dividir por cero!!!!!!";

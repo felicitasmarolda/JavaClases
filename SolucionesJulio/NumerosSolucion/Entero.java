@@ -1,4 +1,4 @@
-package numerossol;
+package numerossolucion;
 
 public class Entero extends Numero {
     private int value;

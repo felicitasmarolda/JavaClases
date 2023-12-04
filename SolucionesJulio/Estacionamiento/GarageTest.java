@@ -1,4 +1,4 @@
-package garageEventos1;
+package estacionamiento;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;

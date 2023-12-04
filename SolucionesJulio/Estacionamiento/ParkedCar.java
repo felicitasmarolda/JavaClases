@@ -1,4 +1,4 @@
-package garageEventos1;
+package estacionamiento;
 
 public abstract class ParkedCar {
   protected Car car;
