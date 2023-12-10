@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a72543d-f534-453d-9ad5-b0d7d95bb90e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/ClassCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/CloseDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/Cochera.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/Cochera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/CocheraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/DayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/MeetingCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/NullCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/OpenDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/PersonalCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalBruno/Cochera/enunciado.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraFallado/ReservaCocheraBuggeado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/ReservaCocheraSabado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/Cochera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/CocheraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/Fecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/FechaState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/FechaStateClosed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/FechaStateOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/Reason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/WithClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/WithMeeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/src/WithPersonalUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AgendaPractica/AgendaPractica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/AgendaPractica.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/AgendaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/AgendaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/Holiday.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/Holiday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/OneDayHoliday.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/OneDayHoliday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/PeriodHoliday.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/PeriodHoliday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/WeekHoliday.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/WeekHoliday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/consigna" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/consigna" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/Estacionamiento.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/Estacionamiento.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Individual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/ParkedCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/ParkedCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/Parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/ParkingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/ParkingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/campoLindero.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estacionamiento/src/campoLindero/campoLindero.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Numeross/Numeros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Numeross/Numeros.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Numeross/src/Entero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Numeross/src/Entero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Numeross/src/Fraccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Numeross/src/Fraccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Numeross/src/Numero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Numeross/src/Numero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Numeross/src/NumeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Numeross/src/NumeroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ParkingModelo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/Garage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/GarageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/InvitedCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/MemberCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/ParkedCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/VisitorCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/out/production/ParkingModelo/ParkingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ParkingModelo/out/production/ParkingModelo/ParkingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ParkingModelo/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParkingModelo/src/ParkingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ParkingModelo/src/ParkingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Portfolio/src/portfolio8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Portfolio/src/portfolio8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/ReservaCocheraBuggeado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/Cochera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/CocheraTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/Fecha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/FechaAbierta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/FechaCerrada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/FechaState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/Motivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/Reserva.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/WithClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/WithMeeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReservaCochera/src/cochera/WithPersonalUse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Robot/Aluminum3000.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Robot/Blaster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Robot/Claw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Robot/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Robot/RobotTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Robot/TankRover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Robot/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Weapon.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2ZJXLtDdRYAdDiqLkKbjSSVhRmI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/felic/git/JavaClases/FinalParadigmas/src",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a72543d-f534-453d-9ad5-b0d7d95bb90e" name="Changes" comment="" />
+      <created>1702141102889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702141102889</updated>
+      <workItem from="1702141103957" duration="175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
