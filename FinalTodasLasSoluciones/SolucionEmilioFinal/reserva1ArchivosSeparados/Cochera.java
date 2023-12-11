@@ -1,4 +1,4 @@
-package reserva1;
+package reserva1ArchivosSeparados;
 
 import java.time.LocalDate;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Cochera {
 
-  Map<LocalDate,Reserva> bookings = new HashMap();
+  Map<LocalDate, Reserva> bookings = new HashMap();
   
   public void reservaPorReunion( String employee, LocalDate bookingDate ) {
     decidir( bookingDate, new ReservaNominada( employee, 3 ) );
@@ -30,7 +30,7 @@ public class Cochera {
     return reservaEn( bookingDate ).consultar();
   }
 
-  private Reserva reservaEn( LocalDate bookingDate ) {
+  private Reserva reservaEn(LocalDate bookingDate ) {
     return bookings.getOrDefault( bookingDate, new ReservaAbierta() );
   }
 
