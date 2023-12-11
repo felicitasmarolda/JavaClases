@@ -5,17 +5,13 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public abstract class Operaciones {
-    private static int a;
-    private static int b;
-    public Operaciones(int a, int b) {
-        this.a = a;
-        this.b = b;
+    public Operaciones() {
     }
     static ArrayList<Operaciones> posiblesOperaciones = new ArrayList<>(Arrays.asList(
-            new Suma(a,b),
-            new Resta(a,b),
-            new Multiplicacion(a,b),
-            new Division(a,b)));
+            new Suma(),
+            new Resta(),
+            new Multiplicacion(),
+            new Division()));
     public static Operaciones buscoOperacion(String op){
         return posiblesOperaciones
                 .stream()

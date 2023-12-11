@@ -1,9 +1,6 @@
 package prueboEquivalarUnCaracterAClase;
 
 public class Resta extends Operaciones{
-    public Resta(int a, int b) {
-        super(a, b);
-    }
 
     @Override
     public boolean canHandle(String op) {
