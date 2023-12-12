@@ -24,12 +24,11 @@ public class Passwords {
         this.passwordIsSafe = true;
     }
     public void registerPassword(String password) {
+        passwordIsSafe = true;
         pattern = Pattern.compile(password);
         passwordsSubmitted += 1;
-
-        for (PasswordRequirements requirement : requirements) {
-            requirement.isSafeInEachRequirement(pattern, this);
-        }
+        requirements.stream()
+                .forEach(requirement -> requirement.isSafeInEachRequirement(pattern, this));
 
         if (passwordIsSafe) {
             safePasswordsSubmitted += 1;
@@ -45,9 +44,8 @@ public class Passwords {
     public boolean isSafe(){
         return passwordIsSafe;
     }
-
-    public void newPasswordIsSafe(boolean matches) {
-        if(!matches){
+    public void newPasswordIsSafe(boolean toChange) {
+        if(!toChange){
             passwordIsSafe = false;
         }
     }
