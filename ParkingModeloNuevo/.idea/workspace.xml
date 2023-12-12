@@ -5,20 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d96e8edf-1ad1-4291-b1e8-db94db4341cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParkingModeloNuevo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/OtherGuests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/ParkedCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Parking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/ParkingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Partner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/PartnersFamilies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AgendaPractica/AgendaPractica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaPractica/AgendaPractica.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AgendaPractica/src/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaPractica/src/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AgendaPractica/src/AgendaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaPractica/src/AgendaTest.java" afterDir="false" />
@@ -143,6 +129,7 @@
       <change beforePath="$PROJECT_DIR$/../Robot/RobotTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Robot/TankRover.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Robot/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SolucionesJulio/Estacionamiento/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SolucionesJulio/Estacionamiento/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SolucionesJulio/Robot/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SolucionesJulio/Robot/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,6 +171,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/felic/git/JavaClases/ParkingModeloNuevo/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -286,7 +274,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702406167894</updated>
-      <workItem from="1702406168990" duration="5519000" />
+      <workItem from="1702406168990" duration="5699000" />
     </task>
     <servers />
   </component>

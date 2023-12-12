@@ -1,4 +1,4 @@
-package garageEventos1.campoLindero;
+package campoLindero;
 
 import java.util.ArrayList;
 import static java.util.stream.Collectors.toList;
@@ -21,6 +21,6 @@ public class Parking {
 
     // falta unpark y que pasa con eso
     public void unpark( Car earlyCar ) {
-        cars.removeAll( cars.stream().filter( (parked) -> parked.holds( earlyCar ) ).toList() );
+        cars.removeAll( cars.stream().filter( (parked) -> parked.holds( earlyCar ) ).collect(toList()) );
     }
 }

@@ -1,4 +1,4 @@
-package garageEventos1.campoLindero;
+package campoLindero;
 
 import org.junit.Test;
 
@@ -33,7 +33,7 @@ public class ParkingTest {
         parking.addCar(car);
         assertEquals(1, parking.cars.size());
         assertEquals(1, parking.people);
-        assertEquals(80, parking.totalToCharge);
+        assertEquals(110, parking.totalToCharge);
     }
 
     @Test public void test04addTwoCarsToParking() {

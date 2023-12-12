@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d88a26d9-0097-4948-a347-73cfaf1b1ed5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloseDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cochera.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cochera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CocheraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeetingCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NullCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PersonalCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enunciado.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalParadigmas/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalParadigmas/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalParadigmas/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalParadigmas/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FinalParadigmas/src/FinalParadigmas.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ReservaCocheraFallado/ReservaCocheraBuggeado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraFallado/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraFallado/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraFallado/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraFallado/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ReservaCocheraFallado/src/ReservaCocheraFallado.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ReservaCocheraSabado/.idea/modules.xml" afterDir="false" />
@@ -91,9 +121,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ZJP4BFmjW0KXm0MPJFe6hQxsvZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -101,11 +131,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/felic/git/JavaClases/FinalBruno/Cochera",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,6 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702137014955</updated>
       <workItem from="1702137015982" duration="70000" />
+      <workItem from="1702139215431" duration="1250000" />
     </task>
     <servers />
   </component>

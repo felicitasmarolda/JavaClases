@@ -1,4 +1,4 @@
-package Robot;
+package robotWars;
 
 public abstract class Weapon {
 

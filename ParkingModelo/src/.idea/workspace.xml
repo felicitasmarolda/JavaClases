@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="56e3bb30-7687-4ed2-860c-986f91284a89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AgendaPractica/AgendaPractica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/AgendaPractica.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AgendaPractica/src/AgendaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AgendaPractica/src/AgendaTest.java" afterDir="false" />
@@ -42,13 +49,6 @@
       <change beforePath="$PROJECT_DIR$/../../Robot/RobotTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Robot/TankRover.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Robot/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Aluminum3000.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Aluminum3000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Blaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Blaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Claw.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Claw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SolucionesJulio/Robot/RobotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesJulio/Robot/RobotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SolucionesJulio/Robot/TankRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesJulio/Robot/TankRover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SolucionesJulio/Robot/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +58,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2Z55nz8ZTRwWjyrYGWWXPoy6A0j" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -73,6 +73,10 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/felic/git/JavaClases/ParkingModelo/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701699270957</updated>
       <workItem from="1701699271971" duration="10000" />
+      <workItem from="1701699323797" duration="491000" />
     </task>
     <servers />
   </component>

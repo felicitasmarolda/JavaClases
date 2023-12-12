@@ -39,34 +39,22 @@ public abstract class Numero {
     public Numero() {}
 
 
-    public Numero substractedBy( Numero aMultiplier ){ return null;}
+    public abstract Numero substractedBy( Numero aMultiplier );
 
     public abstract Numero multipliedBy( Numero aMultiplier );
     public abstract Numero multiplicarAEntero( Entero anEnteroMultiplier );
     public abstract Numero multiplicarAFraccion( Fraccion aFraccionMultiplier );
-    
+    public abstract Numero addedTo( Numero anAdder );
+    public abstract Numero dividedBy(Numero aDivisor );
 
-    public Numero addedTo( Numero anAdder ) {
-        if (type == Entero && anAdder.type == Entero) {
-            return new Entero( value + anAdder.value );
-        }
-
-        if (type == Fraccion && anAdder.type == Fraccion) {
-            int newNumerator = ( numerator * anAdder.denominator ) + ( denominator * anAdder.numerator );
-            int newDenominator = denominator * anAdder.denominator;
-            return with( newNumerator, newDenominator );
-        }
-
-        throw new UnsupportedOperationException( "Tipo de número no soportado" );
-    }
-
-    public Numero dividedBy( Numero aDivisor ) {
-        if (type == Entero) {
-            return new Entero( value / aDivisor.value );
-        }
-
-        throw new UnsupportedOperationException( "Tipo de número no soportado" );
-    }
+//    public Numero dividedBy( Numero aDivisor ){
+//        if (aDivisor.value == 0){
+//            throw new RuntimeException( CanNotDivideByZero );
+//        }
+//        else{
+//            return this.dividedByX(aDivisor);
+//        }
+//        }
 
     public Numero greatestCommonDivisorWith( int anEntero ) {
         if (type == Entero) {
@@ -165,4 +153,16 @@ public abstract class Numero {
         }
         return a;
     }
+
+    protected abstract Numero addedToAnEntero(Entero entero);
+
+    protected abstract Numero addedToAFraction(Fraccion fraccion);
+
+    protected abstract Numero divideByAnEntero(Entero entero);
+
+    protected abstract Numero dividedByAFraccion(Fraccion fraccion);
+
+    protected abstract Numero substractedByAnEntero(Entero entero);
+
+    protected abstract Numero substractedByAFraccion(Fraccion fraccion);
 }

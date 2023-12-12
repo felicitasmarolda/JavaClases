@@ -129,7 +129,7 @@ public class NumeroTest {
 		assertEquals( one, twoFifth.multipliedBy( fiveHalfs ) );
 	}
 
-	@Test public void test21DividingFraccionesCanReturnAnEntero() {
+	@Test public void test21DividingFraccionesCanReturnAnEntero() throws Exception {
 		assertEquals( one, oneHalf.dividedBy( oneHalf ) );
 	}
 

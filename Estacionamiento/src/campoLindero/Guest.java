@@ -1,4 +1,4 @@
-package garageEventos1.campoLindero;
+package campoLindero;
 
 import java.util.ArrayList;
 
