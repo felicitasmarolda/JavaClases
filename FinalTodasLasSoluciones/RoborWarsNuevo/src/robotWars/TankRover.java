@@ -2,17 +2,18 @@ package robotWars;
 
 import java.util.ArrayList;
 
-public class Aluminium3000 extends Robot{
+public class TankRover extends Robot{
     int weaponWeightLeft;
     int speed;
     int life;
     ArrayList<Weapon> weapons = new ArrayList<Weapon>();
-    public Aluminium3000(){
-        this.weaponWeightLeft = 50;
-        this.speed = 90;
+    public TankRover(){
+        this.weaponWeightLeft = 200;
+        this.speed = 50;
         this.life = 100;
         weapons = new ArrayList<Weapon>();
     }
+    @Override
     public int getSpeed() {
         int toReturn = speed;
         for (Weapon weapon : weapons) {
@@ -27,8 +28,8 @@ public class Aluminium3000 extends Robot{
     }
 
     @Override
-    public void affectLife(int x) {
-        this.life -= x;
+    public void affectLife(int life) {
+        this.life -= life;
     }
 
     @Override
@@ -56,11 +57,12 @@ public class Aluminium3000 extends Robot{
                 return;
             }
         }
-        throw new RuntimeException("Cannot attack with weapon not owned");}
+        throw new RuntimeException("Cannot attack with weapon not owned");
+    }
 
     @Override
     protected void getAttackedWith(Weapon weapon, Robot robotAttacker) {
-        weapon.attacksAtAluminium(this,robotAttacker);
+        weapon.attacksAtTank(this,robotAttacker);
     }
 
     @Override
